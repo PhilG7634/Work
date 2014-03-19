@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Phil Portfolio</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.6.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/tms-0.3.js"></script>
+<script type="text/javascript" src="js/tms_presets.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body id="page3">
+<div class="body1">
+  <div class="main">
+
+    <header>
+      <div class="wrapper">
+         <h1><a href="index.html" id="logo">Phil Gilberts Portfolio</a></h1>
+        <nav>
+          <ul id="menu">
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li class="active"><a href="Work.html">Work</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+   
+<style>
+div.img
+  {
+  margin:5px;
+  padding: 5px;
+  border:1px solid #0000ff;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  }
+div.img img
+  {
+  display:inline;
+  margin:5px;
+  border:1px solid #ffffff;
+  }
+div.img a:hover img
+  {
+  border:1px solid #0000ff;
+  }
+div.desc
+  {
+  text-align:center;
+  font-weight:normal;
+  width:120px;
+  margin:5px;
+  }
+</style>
+
+
+
+<div class="img">
+  <a target="_blank" href="work1.html">
+  <img src="images/work1.png" alt="WorkThumbnail" width="110" height="90">
+  </a>
+  <div class="desc">Elegance Catering for a client</div>
+</div>
+<div class="img">
+  <a target="_blank" href="work2.html">
+  <img src="images/work2.png" alt="WorkThumbnail" width="110" height="90">
+  </a>
+  <div class="desc">University project, Mercedes Benz fan site</div>
+</div>
+<div class="img">
+  <a target="_blank" href="work3.html">
+  <img src="images/work3.png" alt="WorkThumbnail" width="110" height="90">
+  </a>
+  <div class="desc">Current project, Comphrenshive Fuel Calculator</div>
+</div>
+  
+ <big>
+ Hello there, My name is Philip Gilbert and i am currently studying computing
+at Leeds Metropoliton University. Making Website has been an integeral part 
+of my learning, so coding them i find most enjoyable. here you will see 3 
+creations that i have made. one for a friend of mine Joe Liptrot who needed a 
+website for his catering business. we worked over a few ideas and i wrote and 
+planned the website in front of him so we both knew we were on the same wave length.
+the second website is one i made in second year as part of a project that i made 
+showing of my skills working with HTML5 and JavaScript. The third one isnt finished 
+yet as i am still developing the idea further. I am 21 and have been studying I.T
+for almost 6 years,Links for the website are below.
+<li><a href="http://elegancecatering.co.nf/">Elegance Catering</a></li>
+<li><a href="http://mercedes-benzfansite.netai.net/">Mercedes-Benz Fansite</a></li>
+<li><a href="">PGFuelCalculator</a></li>
+ 
+</big>
+	
+	
+	
+	
+  </div>
+</div>
+<div class="body2">
+</div>
+<div class="main">
+  <footer>
+    <div class="wrapper">
+      <section class="col2">
+        <div class="wrapper">
+          <section class="col4">
+            <h3>Follow Me </h3>
+           <ul id="icons">
+               <li><a href="https://www.facebook.com/lfclegendtorres9"><img src="images/icon1.jpg" alt=""><span>Facebook</span></a></li>           
+			  <li><a href="https://twitter.com/Gilbbb92"><img src="images/icon2.jpg" alt=""><span>Twitter</span></a></li>
+			  <li><a href="http://www.linkedin.com/profile/view?id=331861547&trk=nav_responsive_tab_profile"><img src="images/icon3.jpg" alt=""><span>LinkedIn</span></a></li>
+            </ul>
+          </section>      
+        </div>
+        
+      </section>
+      <section class="col3 pad_left2">
+        <h3>Email Me</h3>
+        <form id="ContactForm" action="#">
+          <div>
+            <div class="wrapper"> <span>Your Name:</span>
+              <div class="bg">
+                <input type="text" class="input">
+              </div>
+            </div>
+            <div class="wrapper"> <span>Your E-mail:</span>
+              <div class="bg">
+                <input type="text" class="input">
+              </div>
+            </div>
+            <div class="textarea_box"> <span>Your Message:</span>
+              <div class="bg2">
+                <textarea name="textarea" cols="1" rows="1"></textarea>
+              </div>
+            </div>
+            <a href="#">Submit</a> </div>
+        </form>
+      </section>
+    </div>
+  </footer>
+</div>
+
+</html>
